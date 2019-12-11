@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-11T03:28:19.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="e7EToBlY5b_JLalLQH3d" version="12.3.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-11T04:11:33.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="alddrYdhK-ruvR3yf7eY" version="12.3.9" type="github" pages="1">
   <diagram id="TxhqHdVwk1Barlt_jaPI" name="第 1 页">
-    <mxGraphModel dx="813" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="2000" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -108,6 +108,9 @@
             <mxPoint x="2190" y="630" as="sourcePoint"/>
             <mxPoint x="2240" y="580" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NIhzz0g_QTqjriam79Gh-19" value="&lt;h1&gt;Refresh strategy&lt;/h1&gt;&lt;p&gt;&lt;b&gt;A. 定时刷新&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1. 定时刷新保证cache线程安全，替换schema的时候依然能对外提供服务&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;B. 增量刷新&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;1. 从schema registry底层获取最新的schema&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;2. 更新到cache&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;3. 从cache再返回给client端&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="640" width="440" height="220" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
