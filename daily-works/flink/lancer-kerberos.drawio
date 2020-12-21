@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T07:51:29.496Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.8.8" etag="TxWS2A9FzTLX3JyqC6Yq" type="github"><diagram id="v_55b9W1tAULl8OVzCDT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-21T08:24:06.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="o8SkvjuABQ8xt46ZanTX" version="13.8.8" type="github">
+  <diagram id="v_55b9W1tAULl8OVzCDT" name="第 1 页">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RzoqAzsejfmR6IphtjOI-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-22" target="RzoqAzsejfmR6IphtjOI-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="763" y="570" as="sourcePoint" />
+            <mxPoint x="1053" y="622.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="863" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-1" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Saber&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-2" value="&lt;h1&gt;Kerberos Config&lt;/h1&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;1. flink/flink.yaml&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;2. hadoop-offline/yarn-site.xml&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;3. hadoop-online/yarn-site.xml&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;4. hadoop-state/core-site.xml、hdfs-site.xml&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;5. hadoop-state2/core-site.xml、hdfs-site.xml&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="233" y="430" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-3" value="&lt;font style=&quot;font-size: 20px&quot;&gt;Lancer-Flink-Jar&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="683" y="350" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-6" value="&lt;h1&gt;Forced open kerberos&lt;/h1&gt;&lt;p style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;1.&amp;nbsp;YarnResourceManager&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;2.&amp;nbsp;HadoopFsFactory&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 17px&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;3.&amp;nbsp;HadoopModule&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="653" y="130" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-7" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-1" target="RzoqAzsejfmR6IphtjOI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="803" y="550" as="sourcePoint" />
+            <mxPoint x="853" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1003" y="350" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-9" value="&lt;font style=&quot;font-size: 20px&quot;&gt;RM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-11">
+          <mxGeometry width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-10" value="&lt;font style=&quot;font-size: 20px&quot;&gt;RM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-11">
+          <mxGeometry x="10" y="20" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1173" y="375" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-12" value="&lt;font style=&quot;font-size: 20px&quot;&gt;NM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-16">
+          <mxGeometry width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-13" value="&lt;font style=&quot;font-size: 20px&quot;&gt;NM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-16">
+          <mxGeometry x="10" y="10" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-14" value="&lt;font style=&quot;font-size: 20px&quot;&gt;NM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-16">
+          <mxGeometry x="20" y="20" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-15" value="&lt;font style=&quot;font-size: 20px&quot;&gt;NM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RzoqAzsejfmR6IphtjOI-16">
+          <mxGeometry x="30" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-19" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-3" target="RzoqAzsejfmR6IphtjOI-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="953" y="500" as="sourcePoint" />
+            <mxPoint x="1003" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-20" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-10" target="RzoqAzsejfmR6IphtjOI-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1443" y="530" as="sourcePoint" />
+            <mxPoint x="1493" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-22" value="&lt;font style=&quot;font-size: 18px&quot;&gt;/etc/realhdfs/core-site.xml&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940.5" y="490" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-23" value="&lt;font style=&quot;font-size: 18px&quot;&gt;/etc/second-hadoop/core-site.xml&lt;/font&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1078" y="270" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-10" target="RzoqAzsejfmR6IphtjOI-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1253" y="580" as="sourcePoint" />
+            <mxPoint x="1303" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-12" target="RzoqAzsejfmR6IphtjOI-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1373" y="480" as="sourcePoint" />
+            <mxPoint x="1423" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-27" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff3333&quot;&gt;X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="447" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-28" value="&lt;font style=&quot;font-size: 20px&quot; color=&quot;#ff3333&quot;&gt;X&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzoqAzsejfmR6IphtjOI-6" target="RzoqAzsejfmR6IphtjOI-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1143" y="240" as="sourcePoint" />
+            <mxPoint x="1193" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="168" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-33" value="Replace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzoqAzsejfmR6IphtjOI-35" value="Replace" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
