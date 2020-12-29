@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-29T08:53:02.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="GnD4LrFfSBmYkbHVJunk" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-29T08:54:06.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RjBOlNSaR_-ZzRtEaUxr" version="14.1.1" type="github">
   <diagram id="yVQXykmnmnmi0eYwBmyi" name="第 1 页">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -113,9 +113,6 @@
         </mxCell>
         <mxCell id="-mlGXoupMx55JG4DXBJS-31" value="&lt;font color=&quot;#182026&quot;&gt;&lt;span style=&quot;font-size: 20px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Rebalance &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(24 , 32 , 38) ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;Increase&lt;/font&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px&quot;&gt;Parallelism&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1095" y="800" width="220" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="-mlGXoupMx55JG4DXBJS-32" value="&lt;font style=&quot;font-size: 15px&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="614" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-mlGXoupMx55JG4DXBJS-33" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-mlGXoupMx55JG4DXBJS-29" target="-mlGXoupMx55JG4DXBJS-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
